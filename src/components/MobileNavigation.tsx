@@ -8,10 +8,10 @@ import {
     SheetTrigger,
   } from "@/components/ui/sheet"
 const navigation = [
-    { name: 'About us', href: '#about' },
+    { name: 'Home', href: '/' },
+    { name: 'About Us', href: '/about' },
     { name: 'Services', href: '/services' },
     { name: 'Contact', href: '/contact' },
-    { name: 'Company', href: '#' },
   ]
 
 export default function MobileNavigation() {

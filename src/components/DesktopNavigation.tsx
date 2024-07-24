@@ -1,10 +1,10 @@
 
 import logo from '/logo.png'
 const navigation = [
-    { name: 'About us', href: '#about' },
+    { name: 'Home', href: '/' },
+    { name: 'About Us', href: '/about' },
     { name: 'Services', href: '/services' },
     { name: 'Contact', href: '/contact' },
-    { name: 'Company', href: '#' },
   ]
 
 

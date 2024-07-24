@@ -1,5 +1,3 @@
-import DesktopNavigation from "./DesktopNavigation";
-import MobileNavigation from "./MobileNavigation";
 import heros from '/petroleum.webp'
 import { Typewriter } from "react-simple-typewriter";
 
@@ -13,8 +11,6 @@ export default function Hero() {
   ];
   return (
     <>
-      <DesktopNavigation />
-      <MobileNavigation />
       <section className="pt-24 bg-white">
           <div className="md:px-12 px-6 mx-auto max-w-7xl">
               <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">

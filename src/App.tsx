@@ -3,8 +3,8 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import About from './components/About'
+import Benefits from './components/Benefits'
 import Features from './components/Features'
-import Footer from './components/Footer'
 
 import Hero from './components/Hero'
 import Partners from './components/Partners'
@@ -19,7 +19,7 @@ function App() {
       <Partners />
       <About />
       <Features />
-      <Footer />
+      <Benefits />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
