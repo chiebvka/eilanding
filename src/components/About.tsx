@@ -14,9 +14,7 @@ export default function About() {
                 </div>
                 <h3 className="text-2xl text-gray-900 font-bold md:text-4xl">About <span className=" w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400 -mb-5 inline">EIUKLTD </span></h3>
                 <p className="mt-4 px-0 text-md text-gray-600 md:text-xl">
-                    The extension comes with three pre-built pages to help you get
-                    started faster. You can change the text and images and you're
-                    good to go.
+                Industry leaders in sustainable decommissioning, production services, and innovative energy solutions for the oil and gas industry.
                 </p>
                 <ul className="list-none mt-6">
                     <li className="py-2">
@@ -29,7 +27,7 @@ export default function About() {
                         </div>
                         <div>
                         <h4 className="text-gray-600">
-                            Carefully crafted components
+                            Sustainable Solutions
                         </h4>
                         </div>
                     </div>
@@ -42,7 +40,7 @@ export default function About() {
                         </span>
                         </div>
                         <div>
-                        <h4 className="text-gray-600">Amazing page examples</h4>
+                        <h4 className="text-gray-600">Energy Innovation</h4>
                         </div>
                     </div>
                     </li>
@@ -54,7 +52,7 @@ export default function About() {
                         </span>
                         </div>
                         <div>
-                        <h4 className="text-gray-600">Dynamic components</h4>
+                        <h4 className="text-gray-600">Reliable Operations</h4>
                         </div>
                     </div>
                     </li>

@@ -1,5 +1,5 @@
 
-import { MoveRight } from "lucide-react"
+import { CircleUserRound } from "lucide-react"
 import media1 from "/eng2.jpeg"
 import rig from "/petroleum.webp"
 import team from "/miniteam.webp"
@@ -17,20 +17,20 @@ export default function Benefits() {
                         <div className="h-1/2 flex-1"><img src={media1} className="w-full object-cover object-right-top" alt="partner review" /></div>
                         <div className="p-8">
                             <h3 className="text-xl font-medium text-yellow-600">Best In the business</h3>
-                            <p className="mt-2 text-slate-500">EILUKLtd connects with popular customer communication channels like Email, Website live-chat, Facebook, Twitter, WhatsApp, Instagram, Line, etc., and helps you deliver a consistent customer experience across channels.</p>
+                            <p className="mt-2 text-slate-500 italic">"As a partner in exploration and drilling, EIUKLtd has consistently delivered reliable and innovative solutions. Their geological surveys and drilling engineering expertise have been instrumental in the success of our projects. Their team is proactive, responsive, and always willing to go the extra mile to ensure our goals are met. We appreciate their commitment to excellence and look forward to many more successful collaborations."</p>
                             <a href="#" className="flex mt-2  items-center group-hover:text-yellow-600">
-                                <span className="text-sm mr-2 text-yellow-600">Read more </span>
-                                <span className="-translate-x-4 opacity-0 items-center text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><MoveRight /></span>
+                                <span className="text-sm mr-2 text-yellow-600">Virtual Global</span>
+                                <span className="-translate-x-4 opacity-0 items-center text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"> <CircleUserRound /></span>
                             </a>
                         </div>
                     </div>
                     <div className="flex group rounded-md border border-slate-200">
                     <div className="flex-1 p-8">
                         <h3 className="text-xl font-medium text-yellow-600">Simplicity and efficiency</h3>
-                        <p className="mt-2 text-slate-500">Connect with your website visitors, communicate with them in realtime and give them quality support with a live-chat widget that fits your brand.</p>
+                        <p className="mt-2 text-slate-500 italic">"Safety is a top priority in our operations, and EIUKLtd has been an invaluable partner in ensuring our health, safety, and environmental standards are met."</p>
                         <a href="#" className="flex mt-2  items-center group-hover:text-yellow-600">
-                            <span className="text-sm mr-2 text-yellow-600">Read more </span>
-                            <span className="-translate-x-4 opacity-0 items-center text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><MoveRight /></span>
+                            <span className="text-sm mr-2 text-yellow-600">Bexoni </span>
+                            <span className="-translate-x-4 opacity-0 items-center text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><CircleUserRound /></span>
                         </a>
                     </div>
 
@@ -43,10 +43,10 @@ export default function Benefits() {
                     <div className="flex group rounded-md border border-slate-200">
                         <div className="flex-1 p-8">
                             <h3 className="text-xl font-medium text-yellow-600">Best technical team ever</h3>
-                            <p className="mt-2 text-slate-500">Integrate with chatbots using Rasa or Dialogflow to automate conversations. Qualify using chatbots and seamlessly handoff to human agents.</p>
+                            <p className="mt-2 text-slate-500 italic">"Working with EIUKLtd on our decommissioning project was a game-changer. Their team displayed exceptional expertise and a deep understanding of the complexities involved."</p>
                             <a href="#" className="flex mt-2  items-center group-hover:text-yellow-600">
-                                <span className="text-sm mr-2 text-yellow-600">Read more </span>
-                                <span className="-translate-x-4 opacity-0 items-center text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><MoveRight /></span>
+                                <span className="text-sm mr-2 text-yellow-600">Babaennergy</span>
+                                <span className="-translate-x-4 opacity-0 items-center text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><CircleUserRound /></span>
                             </a>
                         </div>
                         <div className="relative hidden h-full w-1/3 overflow-hidden lg:block">

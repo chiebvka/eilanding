@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="  text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
             <div className="p-5">
                 <a href="/" className='protest-revolution-regular font-bold text-3xl text-locale  '>
-                    <span className="sr-only">Your Company</span>
+                    <span className="sr-only">EILUKLTD Logo</span>
                     <img src={logo} className="w-24 md:w-32 h-auto" />
                 </a>
                 <div className="mt-4">
@@ -52,20 +52,20 @@ export default function Footer() {
             </div>
             <div className="p-5">
                 <div className="text-lg capitalize text-yellow-600 font-bold">Services</div>
-                <a className="my-3 block hover:text-green-400" href="/#services">Documentation </a>
-                <a className="my-3 block hover:text-green-400" href="/#services">Tutorials </a>
-                <a className="my-3 block hover:text-green-400" href="/#services">Support</a>
+                <a className="my-3 block text-sm hover:text-green-400" href="/services">Assets Decommissioning Deployment </a>
+                <a className="my-3 block text-sm hover:text-green-400" href="/services">Oil & Gas Production Operation Services </a>
+                <a className="my-3 block text-sm hover:text-green-400" href="/services">Power Generation & Redistribution</a>
             </div>
             <div className="p-5">
                 <div className="text-lg capitalize text-yellow-600  font-bold">About Us</div>
-                <a className="my-3 block hover:text-green-400" href="/about">Help Center </a>
-                <a className="my-3 block hover:text-green-400" href="/#services">Privacy Policy </a>
-                <a className="my-3 block hover:text-green-400" href="/#why">Conditions </a>
+                <a className="my-3 block text-sm hover:text-green-400" href="/about">Our Vision </a>
+                <a className="my-3 block text-sm hover:text-green-400" href="/services">Our Mission </a>
+                <a className="my-3 block text-sm hover:text-green-400" href="/about">FAQ </a>
             </div>
             <div className="p-5">
                 <div className="text-lg capitalize text-yellow-600 font-bold">Contact us</div>
-                <a className="my-3 block" href="/#">XXX XXXX, Floor 4 San Francisco, CA<span className="text-teal-600 text-xs p-1"></span></a>
-                <a className="my-3 block" href="/#">operations@virtualsglobal.com<span className="text-teal-600 text-xs p-1"></span></a>
+                <a className="my-3 block text-sm" href="/#">XXX XXXX, Floor 4 San Francisco, CA<span className="text-teal-600 text-xs p-1"></span></a>
+                <a className="my-3 block text-sm" href="mailto:info@eilukltd.co.uk">info@eilukltd.co.uk<span className="text-teal-600 text-xs p-1"></span></a>
             </div>
         </div>
     </footer>

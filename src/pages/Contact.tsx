@@ -1,4 +1,5 @@
 import { Phone } from "lucide-react";
+import contact from "/contact.webp"
 
 
 export default function Contact() {
@@ -16,11 +17,12 @@ export default function Contact() {
             <div className="py-16 bg-white">  
                 <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                     <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                        <div className="md:5/12 lg:w-5/12">
-                            <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="" />
+                        <div className="md:5/12 rounded-lg border-2 border-yellow-600 lg:w-5/12">
+                            <img src={contact} alt="image" loading="lazy" width="" className="rounded-lg" height="" />
+                            {/* <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="" /> */}
                         </div>
                         <div className="md:7/12 lg:w-6/12">
-                        <form action="" className="form bg-gray-50 rounded-lg p-6 my-10 relative">
+                        <form action="https://formsubmit.co/eiluk@bexoni.com" method="POST" className="form bg-gray-50 rounded-lg p-6 my-10 relative">
                
                             <div className="text-yellow-600 p-3 text-center flex items-center justify-center w-12 h-12 mb-6 shadow-lg rounded-full bg-yellow-600 mt-8">
                                 <Phone size={24} className="text-yellow-300" />
@@ -29,16 +31,17 @@ export default function Contact() {
                             <h3 className="text-2xl text-gray-900 font-semibold">Let us call you!</h3>
                             <p className="text-gray-600"> To help you choose your property</p>
                             <div className="flex space-x-5 mt-3">
-                                <input type="text" name="" id="" placeholder="Your Name" className="border p-2  w-1/2" />
-                                <input type="tel" name="" id="" placeholder="Your Number" className="border p-2 w-1/2" />
+                                <input type="text" name="name" id="" placeholder="Your Name" className="border p-2  w-1/2" required />
+                                <input type="number" name="mobile" id="" placeholder="Your Number" className="border p-2 w-1/2" required />
                             </div>
-                            <input type="email" name="" id="" placeholder="Your Email" className="border p-2 w-full mt-3" />
-                            <textarea name="" id="" cols={10} rows={3} placeholder="Tell us about desired property" className="border p-2 mt-3 w-full"></textarea>
+                            <input type="email" name="email" id="" placeholder="Your Email" className="border p-2 w-full mt-3" required />
+                            <textarea  name="message" id="" cols={10} rows={3} placeholder="Tell us about desired property" className="border p-2 mt-3 w-full"></textarea>
                             <p className="font-bold text-sm mt-3">GDPR Agreement *</p>
                             <div className="flex items-baseline space-x-2 mt-2">
-                                <input type="checkbox" name="" id="" className="inline-block" />
+                                <input type="checkbox" name="consent" id="" className="inline-block" />
                                 <p className="text-gray-600 text-sm">I consent to having this website store my submitted information so they can respond to my inquiry.</p>
                             </div>
+                            <input type="hidden" name="_next" value="https://eilukltd.co.uk/thanks" />
                             <input type="submit" value="Submit" className="w-full mt-6 bg-yellow-600 rounded-md hover:bg-yellow-500 text-white font-semibold p-3" />
 
                         </form>

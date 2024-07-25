@@ -17,7 +17,7 @@ export default function Features() {
                         
                         <div className="space-y-2">
                             <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Power Generation & Redistribution</h5>
-                            <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                            <p className="text-sm text-gray-600">Efficient power generation and redistribution solutions for sustainable energy management.</p>
                         </div>
                         <a href="/services" className="flex justify-between items-center group-hover:text-yellow-600">
                             <span className="text-sm">Read more</span>
@@ -34,7 +34,7 @@ export default function Features() {
                         
                         <div className="space-y-2">
                             <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Downstream Refinery Partnerships</h5>
-                            <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                            <p className="text-sm text-gray-600">Strategic downstream refinery partnerships for optimized processing and distribution efficiency.</p>
                         </div>
                         <a href="/services" className="flex justify-between items-center group-hover:text-yellow-600">
                             <span className="text-sm">Read more</span>
@@ -50,7 +50,7 @@ export default function Features() {
                         
                         <div className="space-y-2">
                             <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600"> Power Plant Development</h5>
-                            <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                            <p className="text-sm text-gray-600">Comprehensive power plant development for reliable and efficient energy solutions.</p>
                         </div>
                         <a href="/services" className="flex justify-between items-center group-hover:text-yellow-600">
                             <span className="text-sm">Read more</span>
@@ -65,7 +65,7 @@ export default function Features() {
                         
                         <div className="space-y-2">
                             <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">More features</h5>
-                            <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
+                            <p className="text-sm text-gray-600">Discover more features and enhancements by visiting our services page.</p>
                         </div>
                         <a href="/services" className="flex justify-between items-center group-hover:text-yellow-600">
                             <span className="text-sm">Read more</span>
