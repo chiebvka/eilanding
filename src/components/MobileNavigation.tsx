@@ -16,7 +16,7 @@ const navigation = [
 
 export default function MobileNavigation() {
   return (
-    <nav className="flex  md:hidden items-center justify-between border-border/40  sticky top-0 z-50 w-full  bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 p-4 md:px-8" aria-label="Global">
+    <nav className="flex  md:hidden items-center justify-between border-2 sticky top-0 z-50 w-full  bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 p-4 md:px-8" aria-label="Global">
     <div className="flex md:flex-1">
         <a href="/" className='protest-revolution-regular font-bold text-3xl text-locale'>
             <span className="sr-only">Companny Logo</span>
