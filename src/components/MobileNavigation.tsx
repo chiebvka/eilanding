@@ -20,7 +20,7 @@ export default function MobileNavigation() {
     <div className="flex md:flex-1">
         <a href="/" className='protest-revolution-regular font-bold text-3xl text-locale'>
             <span className="sr-only">Companny Logo</span>
-            <img src={logo} alt="eilukltd logo" className="w-24 h-auto"  />
+            <img src={logo} alt="eilukltd logo" className="w-16 h-16"  />
         </a>
     </div>
     <div className="flex ">

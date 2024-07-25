@@ -14,7 +14,7 @@ export default function DesktopNavigation() {
             <div className="flex md:flex-1">
                 <a href="/" className='protest-revolution-regular font-bold text-3xl text-locale'>
                     <span className="sr-only">Your Company</span>
-                    <img src={logo} alt="eilukltd logo" className="w-32 h-auto"  />
+                    <img src={logo} alt="eilukltd logo" className="w-20 h-16"  />
                 </a>
             </div>
             <div className="hidden md:flex md:gap-x-12">

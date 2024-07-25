@@ -15,7 +15,7 @@ export default function Services() {
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-2xl mb-8 font-extrabold leading-none tracking-normal text-gray-900 md:text-4xl md:tracking-tight">Details about our <span className=" w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400 -mb-5 inline">Services </span></h2>
             <p className=" mb-8 text-md text-gray-600 md:text-xl ">
-                Start gaining the traction you've always wanted with our next-level templates and designs. Crafted to help you tell your story.
+            With a team of experienced professionals and a portfolio of successful projects, we have established a strong reputation for reliability and expertise with some of our services below
             </p>
           </div>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -27,11 +27,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Service 1</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Assets Decommissioning Deployment</h2>
                         </div>
 
                         <div className="mt-2 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.</p>
+                            <p className="text-gray-700 dark:text-gray-300">Specialized in the safe and efficient decommissioning of oil and gas assets to prolong their salvage life value.</p>
                         </div>
                     </div>
                 </div>
@@ -44,11 +44,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Service 2</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Oil & Gas Production Operation Services</h2>
                         </div>
 
                         <div className="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.</p>
+                            <p className="text-gray-700 dark:text-gray-300">Comprehensive support for the production operations in the oil and gas industry to maximize efficiency and output</p>
                         </div>
 {/* 
                         <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
@@ -72,11 +72,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Service 3</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Exploration and Drilling Services</h2>
                         </div>
 
                         <div className="mt-2 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.</p>
+                            <p className="text-gray-700 dark:text-gray-300">Providing end-to-end solutions for exploration and drilling operations to discover and develop new oil and gas reserves.</p>
                         </div>
 
                         {/* <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
@@ -100,11 +100,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Service 4</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Reservoir Management Services</h2>
                         </div>
 
                         <div className="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.</p>
+                            <p className="text-gray-700 dark:text-gray-300">Enhancing reservoir performance through advanced monitoring and management techniques..</p>
                         </div>
 {/* 
                         <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
@@ -128,11 +128,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Service 5</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Health, Safety, and Environment (HSE) Services:</h2>
                         </div>
 
                         <div className="mt-2 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.</p>
+                            <p className="text-gray-700 dark:text-gray-300">Ensuring the highest standards of health, safety, and environmental protection in all operations.</p>
                         </div>
 
                         {/* <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
@@ -156,11 +156,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Service 6</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Technical Consulting and Training</h2>
                         </div>
 
                         <div className="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.</p>
+                            <p className="text-gray-700 dark:text-gray-300">Offering expert consulting and training services to enhance the skills and knowledge of industry professionals.</p>
                         </div>
 {/* 
                         <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">

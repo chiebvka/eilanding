@@ -18,9 +18,10 @@ export default function About() {
       <div className="bg-white py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
-            <h2 className="text-2xl mb-8 font-extrabold leading-none tracking-normal text-gray-900 md:text-4xl md:tracking-tight">Who is  <span className=" w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400 -mb-5 inline">Technical Provider for </span></h2>
+            <h2 className="text-2xl mb-8 font-extrabold leading-none tracking-normal text-gray-900 md:text-4xl md:tracking-tight">Who is  <span className=" w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400 -mb-5 inline">EILUK?</span></h2>
             <p className=" mb-8 text-md text-gray-600 md:text-xl ">
-                Start gaining the traction you've always wanted with our next-level templates and designs. Crafted to help you tell your story.
+            Welcome to EILUKLTD, a leader in providing top-notch services in the oil and gas industry.
+            Specializing in Assets Decommissioning Deployment and Oil & Gas Production Operation Services, we aim to deliver exceptional value and innovative solutions to our clients
             </p>
           </div>
           <Tabs defaultValue="mission">
@@ -32,7 +33,7 @@ export default function About() {
               <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
                 <div className="p-8 sm:p-10 lg:flex-auto">
                   <h3 className="text-2xl font-bold tracking-tight text-gray-900">Our <span className=" w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400 -mb-5 inline">Vision </span> </h3>
-                  <p className="mt-6 text-base leading-7 text-gray-600">Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.</p>
+                  <p className="mt-6 text-base leading-7 text-gray-600">Our mission is to enhance the operational efficiency and sustainability of the oil and gas sector through cutting-edge decommissioning techniques and comprehensive production operation services.</p>
                   <div className="mt-10 flex items-center gap-x-4">
                     <h4 className="flex-none text-sm font-semibold leading-6 text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-green-400">What’s included</h4>
                     <div className="h-px flex-auto bg-gray-100"></div>
@@ -40,19 +41,19 @@ export default function About() {
                   <ul role="list" className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6">
                     <li className="flex gap-x-3">
                       <CheckCheck size={20} className="text-yellow-600" />
-                      Private forum access
+                      Safety
                     </li>
                     <li className="flex gap-x-3">
                       <CheckCheck size={20} className="text-yellow-600" />
-                      Member resources
+                      Innovation
                     </li>
                     <li className="flex gap-x-3">
                       <CheckCheck size={20} className="text-yellow-600" />
-                      Entry to annual conference
+                      Sustainability
                     </li>
                     <li className="flex gap-x-3">
                       <CheckCheck size={20} className="text-yellow-600" />
-                      Official member t-shirt
+                      Excellence
                     </li>
                   </ul>
                 </div>
@@ -62,12 +63,12 @@ export default function About() {
                       <p className="text-base font-semibold text-gray-600">Always Committed</p>
                       <p className="mt-6 flex items-baseline justify-center gap-x-2">
                       
-                        <span className="text-sm font-semibold text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, magnam!</span>
+                        <span className="text-xs font-semibold text-gray-600">To be the foremost provider of decommissioning and production services, driving industry standards and contributing to the sustainable development of energy resources.</span>
                       </p>
                         <span   className="mt-10 flex items-center justify-center space-x-3 w-full rounded-md bg-yellow-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"> 
                           <Activity /> <span>Always delivering</span> 
                         </span>
-                      <p className="mt-6 text-xs leading-5 text-gray-600">Invoices and receipts available for easy company reimbursement</p>
+                      {/* <p className="mt-6 text-xs leading-5 text-gray-600">Invoices and receipts available for easy company reimbursement</p> */}
                     </div>
                   </div>
                 </div>
