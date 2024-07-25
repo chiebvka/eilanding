@@ -19,7 +19,7 @@ export default function Features() {
                             <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Power Generation & Redistribution</h5>
                             <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
                         </div>
-                        <a href="#" className="flex justify-between items-center group-hover:text-yellow-600">
+                        <a href="/services" className="flex justify-between items-center group-hover:text-yellow-600">
                             <span className="text-sm">Read more</span>
                             <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><MoveRight /></span>
                         </a>
@@ -36,7 +36,7 @@ export default function Features() {
                             <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Downstream Refinery Partnerships</h5>
                             <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
                         </div>
-                        <a href="#" className="flex justify-between items-center group-hover:text-yellow-600">
+                        <a href="/services" className="flex justify-between items-center group-hover:text-yellow-600">
                             <span className="text-sm">Read more</span>
                             <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><MoveRight /></span>
                         </a>
@@ -52,7 +52,7 @@ export default function Features() {
                             <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600"> Power Plant Development</h5>
                             <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
                         </div>
-                        <a href="#" className="flex justify-between items-center group-hover:text-yellow-600">
+                        <a href="/services" className="flex justify-between items-center group-hover:text-yellow-600">
                             <span className="text-sm">Read more</span>
                             <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><MoveRight /></span>
                         </a>
@@ -67,7 +67,7 @@ export default function Features() {
                             <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">More features</h5>
                             <p className="text-sm text-gray-600">Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.</p>
                         </div>
-                        <a href="#" className="flex justify-between items-center group-hover:text-yellow-600">
+                        <a href="/services" className="flex justify-between items-center group-hover:text-yellow-600">
                             <span className="text-sm">Read more</span>
                             <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0"><MoveRight /></span>
                         </a>
