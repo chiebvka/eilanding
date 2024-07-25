@@ -1,4 +1,4 @@
-import heros from '/petroleum.webp'
+import heros from '/eng2.jpeg'
 import { Typewriter } from "react-simple-typewriter";
 
 
