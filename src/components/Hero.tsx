@@ -28,7 +28,7 @@ export default function Hero() {
                       />
                   </h1>
                   <p className="px-0 mb-8 text-md text-gray-600 md:text-xl lg:px-24">
-                      Start gaining the traction you've always wanted with our next-level templates and designs. Crafted to help you tell your story.
+                  Experience unparalleled commitment to energy sustainability and efficiency at  <span className=" w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400 -mb-5 inline">EILUKLtd </span>
                   </p>
                   <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                       <a href="/about" className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-black bg-gradient-to-r from-yellow-600 to-green-400  rounded-2xl sm:w-auto sm:mb-0">

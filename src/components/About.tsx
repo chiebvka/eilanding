@@ -1,11 +1,12 @@
 import { BadgeInfo, BrainCog, Cpu, Radar } from "lucide-react";
+import about from '/eng1.jpeg'
 
 export default function About() {
   return (
     <div className="relative py-10 border-2 w-full bg-gray-50 border-gradient-to-r from-yellow-600 to-green-400 ">
         <div className="items-center justify-evenly w-10/12 mx-auto flex flex-wrap">
             <div className="w-full h-[65vh] md:w-4/12 ">
-                <img alt="..." className="max-w-full h-full rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80" />
+                <img alt="..." className="max-w-full h-full rounded-lg shadow-lg" src={about} />
             </div>
             <div className="w-full md:w-5/12 ml-auto mr-auto ">
                 <div className="md:pr-12">
