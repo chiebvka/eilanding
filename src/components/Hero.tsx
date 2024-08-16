@@ -4,10 +4,8 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   const words = [
-    "Liquefied Petroleum & Gas Distribution",
-    "Product Marketing & Distribution",
-    "Refined Products Off-taker",
-    "Power Generation & Distribution",
+    "Asset Decommissioning Deployment",
+    "Oil & Gas Production Operation",
   ];
   return (
     <>
@@ -15,7 +13,7 @@ export default function Hero() {
           <div className="md:px-12 px-6 mx-auto max-w-7xl">
               <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
                   <h1 className="mb-8 text-2xl font-extrabold leading-none tracking-normal text-gray-900 md:text-4xl md:tracking-tight">
-                      <span>Your one and stop </span> <span className=" w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400 -mb-5 inline">Technical Provider for </span> <br />
+                      <span>Your one stop </span> <span className=" w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400 -mb-5 inline">Technical Provider for </span> <br />
                       <Typewriter
                         words={words}
                         loop={5}

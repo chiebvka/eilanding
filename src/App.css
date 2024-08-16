@@ -9,6 +9,14 @@
   will-change: filter;
   transition: filter 300ms;
 }
+.logo-mark {
+  display: inline-block;
+  height: 2.5rem;
+  border-radius: 9999px;
+  --tw-shadow: 0 10px 15px -3px rgba(26, 32, 44, 0.05), 0 4px 6px -2px rgba(26, 32, 44, 0.03);
+  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }

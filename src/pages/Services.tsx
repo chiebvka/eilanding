@@ -72,11 +72,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Exploration and Drilling Services</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Equipment Refurbishment and Resale</h2>
                         </div>
 
                         <div className="mt-2 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Providing end-to-end solutions for exploration and drilling operations to discover and develop new oil and gas reserves.</p>
+                            <p className="text-gray-700 dark:text-gray-300">We breathe new life into decommissioned equipment, refurbishing and reselling assets to maximize their value.</p>
                         </div>
 
                         {/* <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
@@ -100,11 +100,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Reservoir Management Services</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Decommissioning Project Management</h2>
                         </div>
 
                         <div className="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Enhancing reservoir performance through advanced monitoring and management techniques..</p>
+                            <p className="text-gray-700 dark:text-gray-300">Our team handles all aspects of decommissioning projects, from planning to execution, ensuring compliance and cost-effectiveness.</p>
                         </div>
 {/* 
                         <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
@@ -156,11 +156,11 @@ export default function Services() {
                         </div>
 
                         <div className="mt-6 group pb-6 rounded-b-[--card-border-radius]">
-                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Technical Consulting and Training</h2>
+                          <h2 className="text-xl text-gray-800 font-medium transition group-hover:text-green-600">Production Optimization Consulting</h2>
                         </div>
 
                         <div className="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                            <p className="text-gray-700 dark:text-gray-300">Offering expert consulting and training services to enhance the skills and knowledge of industry professionals.</p>
+                            <p className="text-gray-700 dark:text-gray-300">Our consultants work with you to identify and implement strategies to enhance your oil and gas production efficiency.</p>
                         </div>
 {/* 
                         <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
@@ -278,23 +278,33 @@ export default function Services() {
           </div>
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Is it accessible?</AccordionTrigger>
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">What are the main services offered by EILUKLTD?</AccordionTrigger>
               <AccordionContent className="px-2">
-                Yes. It adheres to the WAI-ARIA design pattern.
+                Our two core services are Assets Decommissioning Deployment and Oil & Gas Production Operation Services. We also offer a range of related services including asset integrity management, environmental remediation, and production optimization consulting.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Is it styled?</AccordionTrigger>
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">What does Assets Decommissioning Deployment involve?</AccordionTrigger>
               <AccordionContent className="px-2">
-                Yes. It comes with default styles that matches the other
-                components&apos; aesthetic.
+                Assets Decommissioning Deployment involves strategically decommissioning and redeploying equipment to extend its useful life and maximize its value. This service helps companies get the most out of their assets even after their initial lifecycle.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Is it animated?</AccordionTrigger>
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Can you explain what Oil & Gas Production Operation Services entail?</AccordionTrigger>
               <AccordionContent className="px-2">
-                Yes. It&apos;s animated by default, but you can disable it if you
-                prefer.
+              Our Oil & Gas Production Operation Services cover a wide range of activities aimed at optimizing facility performance and maximizing output. This includes day-to-day operations management, equipment maintenance, and production optimization strategies.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4">
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Does EILUKLTD offer project management services for decommissioning? </AccordionTrigger>
+              <AccordionContent className="px-2">
+                Yes, we offer comprehensive Decommissioning Project Management services. Our team handles all aspects of decommissioning projects, from initial planning to final execution, ensuring compliance with regulations and cost-effectiveness.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-5">
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">How does EILUKLTD handle equipment that has been decommissioned?</AccordionTrigger>
+              <AccordionContent className="px-2">
+              Through our Equipment Refurbishment and Resale service, we breathe new life into decommissioned equipment. We refurbish assets to extend their usable life and facilitate their resale, maximizing their value and contributing to a more circular economy.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

@@ -82,45 +82,39 @@ export default function About() {
                     <li className="flex">
                       <div className="px-4 text-5xl font-extralight text-yellow-600">01.</div>
                       <div>
-                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Research</div>
-                        <p className="max-w-xs py-2 text-sm text-yellow-600">We love numbers! We collect data and insights, analyze
-                          them then take the time to learn about your objectives, ask the right questions to understand your
-                          business.</p>
+                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Growth</div>
+                        <p className="max-w-xs py-2 text-sm text-yellow-600">To be the global leader in asset lifecycle management in the energy sector.</p>
                       </div>
                     </li>
                     <li className="flex">
                       <div className="px-4 text-5xl font-extralight text-yellow-600">02.</div>
                       <div>
-                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Strategey</div>
-                        <p className="max-w-xs py-2 text-sm text-yellow-600">Solutions are born from proper research, hard work, and
-                          strong strategy. We build data-driven roadmaps for every project to make pave the way to success.
+                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Lead</div>
+                        <p className="max-w-xs py-2 text-sm text-yellow-600">To set new industry standards for efficient and sustainable oil and gas production operations.
                         </p>
                       </div>
                     </li>
                     <li className="flex">
                       <div className="px-4 text-5xl font-extralight text-yellow-600">03.</div>
                       <div>
-                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Design</div>
-                        <p className="max-w-xs py-2 text-sm text-yellow-600">We design the right solution for your business. We
-                          craft beautiful, intuitive, and user-friendly interfaces that are easy to use and easy to maintain.
+                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Innovate</div>
+                        <p className="max-w-xs py-2 text-sm text-yellow-600">To pioneer innovative technologies that transform asset decommissioning processes.
                         </p>
                       </div>
                     </li>
                     <li className="flex">
                       <div className="px-4 text-5xl font-extralight text-yellow-600">04.</div>
                       <div>
-                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Development</div>
-                        <p className="max-w-xs py-2 text-sm text-yellow-600">We build the right solution for your business. We
-                          craft beautiful, intuitive, and user-friendly interfaces that are easy to use and easy to maintain.
+                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Expand</div>
+                        <p className="max-w-xs py-2 text-sm text-yellow-600">To create a more circular economy in the energy sector through our asset redeployment strategies.
                         </p>
                       </div>
                     </li>
                     <li className="flex">
                       <div className="px-4 text-5xl font-extralight text-yellow-600">05.</div>
                       <div>
-                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Deployment</div>
-                        <p className="max-w-xs py-2 text-sm text-yellow-600">We build the right solution for your business. We
-                          craft beautiful, intuitive, and user-friendly interfaces that are easy to use and easy to maintain.
+                        <div className="text-xl font-bold text-transparent bg-clip-text leading-12 bg-gradient-to-r from-yellow-600 to-green-400">Contribute</div>
+                        <p className="max-w-xs py-2 text-sm text-yellow-600">To contribute to the energy transition by optimizing traditional energy production while supporting the growth of renewable energy.
                         </p>
                       </div>
                     </li>
@@ -139,25 +133,36 @@ export default function About() {
           </div>
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Is it accessible?</AccordionTrigger>
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">What makes EILUKLTD unique in the energy industry?</AccordionTrigger>
               <AccordionContent className="px-2">
-                Yes. It adheres to the WAI-ARIA design pattern.
+                Our unique approach to asset management sets us apart. We see opportunities for value creation in equipment at the end of its lifecycle, contributing to a more sustainable and circular economy in the energy sector.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Is it styled?</AccordionTrigger>
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">What is EILUKLTD's approach to partnerships with clients?</AccordionTrigger>
               <AccordionContent className="px-2">
-                Yes. It comes with default styles that matches the other
-                components&apos; aesthetic.
+                We believe in building lasting partnerships with our clients. We position ourselves not just as service providers, but as collaborators in our clients' success stories.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Is it animated?</AccordionTrigger>
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">How does EILUKLTD contribute to sustainability in the energy sector?</AccordionTrigger>
               <AccordionContent className="px-2">
-                Yes. It&apos;s animated by default, but you can disable it if you
-                prefer.
+              We contribute to sustainability by extending asset lifecycles through our decommissioning and redeployment services, and by improving operational efficiency in oil and gas production.
               </AccordionContent>
             </AccordionItem>
+            <AccordionItem value="item-4">
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">What kind of experience does the team at EILUKLTD have?</AccordionTrigger>
+              <AccordionContent className="px-2">
+              Our team of seasoned professionals brings together decades of experience in the oil and gas industry, providing us with a deep understanding of the complex challenges faced by our clients.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-5">
+              <AccordionTrigger className="bg-gray-100 px-2 rounded-lg mt-3">Does EILUKLTD operate internationally?</AccordionTrigger>
+              <AccordionContent className="px-2">
+                Yes, we have established ourselves as a trusted partner for energy companies worldwide and are continually expanding our global reach.
+              </AccordionContent>
+            </AccordionItem>
+
           </Accordion>
         </div>
       </div>

@@ -54,7 +54,7 @@ export default function Footer() {
                 <div className="text-lg capitalize text-yellow-600 font-bold">Services</div>
                 <a className="my-3 block text-sm hover:text-green-400" href="/services">Assets Decommissioning Deployment </a>
                 <a className="my-3 block text-sm hover:text-green-400" href="/services">Oil & Gas Production Operation Services </a>
-                <a className="my-3 block text-sm hover:text-green-400" href="/services">Power Generation & Redistribution</a>
+                {/* <a className="my-3 block text-sm hover:text-green-400" href="/services">Power Generation & Redistribution</a> */}
             </div>
             <div className="p-5">
                 <div className="text-lg capitalize text-yellow-600  font-bold">About Us</div>
@@ -64,8 +64,9 @@ export default function Footer() {
             </div>
             <div className="p-5">
                 <div className="text-lg capitalize text-yellow-600 font-bold">Contact us</div>
-                <a className="my-3 block text-sm" href="/#">XXX XXXX, Floor 4 San Francisco, CA<span className="text-teal-600 text-xs p-1"></span></a>
+                <a className="my-3 block text-sm" href="/#">Aberdeen, Scotland<span className="text-teal-600 text-xs p-1"></span></a>
                 <a className="my-3 block text-sm" href="mailto:info@eilukltd.co.uk">info@eilukltd.co.uk<span className="text-teal-600 text-xs p-1"></span></a>
+                <a className="my-3 block text-sm" href="tel:+447488229401">+447488229401<span className="text-teal-600 text-xs p-1"></span></a>
             </div>
         </div>
     </footer>
