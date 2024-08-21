@@ -10,6 +10,7 @@ import {
 const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
+    { name: 'How', href: '/how' },
     { name: 'Services', href: '/services' },
     { name: 'Contact', href: '/contact' },
   ]

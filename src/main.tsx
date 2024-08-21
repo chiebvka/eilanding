@@ -9,6 +9,7 @@ import About from './pages/About.tsx';
 import Services from './pages/Services.tsx';
 import Contact from './pages/Contact.tsx';
 import Thanks from './pages/Thanks.tsx';
+import How from './pages/How.tsx';
 
 // eslint-disable-next-line react-refresh/only-export-components
 const Layout = () => {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services />,
+      },
+      {
+        path: "/how",
+        element: <How />,
       },
       {
         path: "/contact",
